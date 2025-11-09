@@ -1,0 +1,20 @@
+{
+  "name": "kaesyr-ptero-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.0",
+    "winston": "^3.9.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
